@@ -39,7 +39,28 @@ const Navbar = ({selectedPage, setSelectedpage}) => {
                         />
                     </div>
                 ) : (
-                <div></div>
+                <div className = "flex justify-between gap-16 font-opensans text-sm font-semibold">
+                    <Link 
+                        page = "Home"
+                        selectedPage = {selectedPage}
+                        setSelectedPage = {setSelectedpage}
+                    />
+                    <Link 
+                        page = "Stats"
+                        selectedPage = {selectedPage}
+                        setSelectedPage = {setSelectedpage}
+                    />
+                    <Link 
+                        page = "Catalysts"
+                        selectedPage = {selectedPage}
+                        setSelectedPage = {setSelectedpage}
+                    />
+                    <Link 
+                        page = "RTA Drafts"
+                        selectedPage = {selectedPage}
+                        setSelectedPage = {setSelectedpage}
+                    />
+                </div>
                 ) }
             </div>
         </nav>
