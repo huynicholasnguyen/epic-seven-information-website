@@ -15,9 +15,10 @@ const Link = ({ page, selectedPage, setSelectedpage}) => {
     )
 }
 
-const Navbar = ({selectedPage, setSelectedpage}) => {
+const Navbar = ({isTopOfPage, selectedPage, setSelectedpage}) => {
     const [isMenuToggled, setisMenuToggled] = useState(false);
     const isDesktop = useMediaQuery("(min-width: 768px)");
+    const navbarBackground = isTopOfPage ? "" : "bg-red";
 
     return(
         <nav className = {`z-40 w-full fixed top-0 py-6`}>
