@@ -15,15 +15,18 @@ const Landing = ({setSelectedPage}) => {
                         <img
                             alt = "lcbellona-art"
                             className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-                            src = "/assets/lcbellona-art.png"
+                            src = "/Users/huy/Documents/GitHub/epic-seven-information-website/src/assets/lcbellona-art.png"
                         />
+                        <div className = "color-blue">
+                            Credit to u/butterballbuns on Reddit for this awesome Lone Crescent Bellona Art
+                        </div>
                     </div>
                 ) : (
                     <div>
                         <img
                             alt = "lcbellona-art"
                             className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-                            src = "/assets/lcbellona-art.png"
+                            src = "/src/assets/lcbellona-art.png"
                         />
                     </div>
                 )}

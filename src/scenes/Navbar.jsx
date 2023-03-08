@@ -5,8 +5,8 @@ import useMediaQuery from "../hooks/useMediaQuery";
 const Link = ({ page, selectedPage, setSelectedpage}) => {
     const lowerCasePage = page.toLowerCase();
     return (
-        <AnchorLink className = {`${selectedPage === lowerCasePage ? "text-yellow" : ""}
-        hover: text-yellow transition duration-500`}
+        <AnchorLink className = {`${selectedPage === lowerCasePage ? "text-white" : ""}
+        hover: text-white transition duration-500`}
         href = {`#${lowerCasePage}`}
         onClick = {() => setSelectedpage(lowerCasePage)}
         >
@@ -27,7 +27,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedpage}) => {
                 
                 {/*DESKTOP NAV */}
                 {isDesktop ? (
-                    <div className = "flex justify-between gap-16 font-opensans text-sm font-semibold">
+                    <div className = "flex justify-between gap-16 font-opensans text-md font-semibold">
                         <Link 
                         page = "Home"
                         selectedPage = {selectedPage}
