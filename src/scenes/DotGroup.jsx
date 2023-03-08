@@ -10,6 +10,21 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
                 href = "#home"
                 onClick = {() => setSelectedPage('home')}
             />
+            <AnchorLink className = {`${selectedPage === 'stats' ? selectedStyles : "bg-dark-grey"}
+                w-3 h-3 rounded-full`}
+                href = "#stats"
+                onClick = {() => setSelectedPage('stats')}
+            />
+            <AnchorLink className = {`${selectedPage === 'catalysts' ? selectedStyles : "bg-dark-grey"}
+                w-3 h-3 rounded-full`}
+                href = "#catalysts"
+                onClick = {() => setSelectedPage('catalysts')}
+            />
+            <AnchorLink className = {`${selectedPage === 'rta' ? selectedStyles : "bg-dark-grey"}
+                w-3 h-3 rounded-full`}
+                href = "#rta"
+                onClick = {() => setSelectedPage('rta')}
+            />
         </div>
     )
 }
