@@ -39,11 +39,17 @@ const Carousel1 = () => {
           data-te-slide-to="2"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 3"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="3"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 4"></button>
       </div>
       <div
-        class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+        class="relative w-full overflow-hidden after:clear-both after:block after:content-[''] justify-between">
         <div
-          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] motion-reduce:transition-none"
+          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item
           data-te-carousel-active>
           <img
@@ -52,7 +58,7 @@ const Carousel1 = () => {
             alt="Straze" />
         </div>
         <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] motion-reduce:transition-none"
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item>
           <img
             src={Zahhak}
@@ -60,12 +66,20 @@ const Carousel1 = () => {
             alt="Zahhak" />
         </div>
         <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] motion-reduce:transition-none"
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item>
           <img
             src={Arby}
             class="block w-full"
             alt="Arby" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Vildred}
+            class="block w-full"
+            alt="Vildred" />
         </div>
       </div>
       <button

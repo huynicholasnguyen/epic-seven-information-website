@@ -10,7 +10,7 @@ const Stats = () => {
     return(
         <section id = "stats" className = "pt-10 pb-24">
             { /* CAROUSEL OF IMAGES SECTION */}
-            <div className = "md:flex md:justify-between md:gap-16 mt-32">
+            <div className = "md:flex md:justify-between md:gap-16 mt-16">
                 <motion.div
                     className = "md:w-1/3"
                     initial = "hidden"
@@ -26,7 +26,7 @@ const Stats = () => {
                         MY <span className = "text-red">UNITS AND STATS</span>
                     </p>
                     <LineGradient width = "w-1/3" />
-                    <p className = "mt-10 mb-7 ">
+                    <p className = "mt-10 mb-7 float-left">
                         The units that are being showcased are almost RTA-exclusive, not usually used for adventure or hunt.
                     </p>
 
