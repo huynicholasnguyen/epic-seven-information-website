@@ -23,13 +23,13 @@ const Stats = () => {
                     }}
                 >
                     <div className = "font-playfair font-semibold text-4xl mb-5">
-                        MY <span className = "text-red">UNITS AND STATS</span>
+                        MY <span className = "text-white">UNITS AND STATS</span>
                     </div>
                     <LineGradient width = "w-1/3" />
                     <div className = "mt-10 mb-7 float-left font-playfair text-2xl">
                         The units that are being showcased are almost RTA-exclusive, not usually used for adventure or hunt. I don't exactly have the best gear
                         in the world, but I make do with what I've got. I'm unfortunately not a high roller, nor am I a heavy speed contester, but I somehow make things work.
-                        Using these units, I've finished rank 2000 (a few seasons ago).
+                        I've somehow managed to peak rank 2000 in RTA with these units. 
                     </div>
                     
                 </motion.div>
