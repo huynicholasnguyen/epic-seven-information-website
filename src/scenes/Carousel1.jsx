@@ -47,7 +47,7 @@ const Carousel1 = () => {
           aria-label="Slide 4"></button>
       </div>
       <div
-        class="relative w-full overflow-hidden after:clear-both after:block after:content-[''] justify-between">
+        class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
         <div
           class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item
