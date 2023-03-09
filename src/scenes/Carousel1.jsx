@@ -43,7 +43,7 @@ const Carousel1 = () => {
       <div
         class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
         <div
-          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] motion-reduce:transition-none"
           data-te-carousel-item
           data-te-carousel-active>
           <img
@@ -52,7 +52,7 @@ const Carousel1 = () => {
             alt="Straze" />
         </div>
         <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] motion-reduce:transition-none"
           data-te-carousel-item>
           <img
             src={Zahhak}
@@ -60,7 +60,7 @@ const Carousel1 = () => {
             alt="Zahhak" />
         </div>
         <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] motion-reduce:transition-none"
           data-te-carousel-item>
           <img
             src={Arby}
