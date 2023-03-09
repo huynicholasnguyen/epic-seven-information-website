@@ -2,6 +2,7 @@ import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion} from "framer-motion";
 import Carousel from "./Carousel";
+import Carousel1 from './Carousel1';
 
 const Stats = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px");
@@ -26,7 +27,7 @@ const Stats = () => {
                     </p>
                     <LineGradient width = "w-1/3" />
                     <p className = "mt-10 mb-7">
-                        Test 
+                        The units that are being showcased are almost RTA-exclusive, not usually used for adventure or hunt.
                     </p>
 
                 </motion.div>
@@ -41,3 +42,4 @@ const Stats = () => {
         </section>
     )
 }
+export default Stats;
