@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from "../hooks/useMediaQuery";
+import MenuIcon from '../assets/menu-icon.svg';
 
 const Link = ({ page, selectedPage, setSelectedpage}) => {
     const lowerCasePage = page.toLowerCase();
@@ -27,7 +28,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedpage}) => {
                 
                 {/*DESKTOP NAV */}
                 {isDesktop ? (
-                    <div className = "flex justify-between gap-16 font-opensans text-md font-semibold z-40">
+                    <div className = "flex justify-between gap-16 font-opensans text-md font-semibold z-40 hover:filter hover:brightness-150 transition duration-500">
                         <Link 
                         page = "Home"
                         selectedPage = {selectedPage}
@@ -39,19 +40,21 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedpage}) => {
                             setSelectedPage = {setSelectedpage}
                         />
                         <Link 
-                            page = "Catalysts"
+                            page = "RTA Drafts"
                             selectedPage = {selectedPage}
                             setSelectedPage = {setSelectedpage}
                         />
                         <Link 
-                            page = "RTA Drafts"
+                            page = "Catalysts"
                             selectedPage = {selectedPage}
                             setSelectedPage = {setSelectedpage}
                     />
                     </div>
                 ) : (
                 <button className = "rounded-full bg-red p-2" onClick = {() => setisMenuToggled(!isMenuToggled)}>
-                    
+                    <img 
+                        src = {MenuIcon}
+                    />
                 </button>
                 ) }
 
@@ -78,12 +81,12 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedpage}) => {
                             setSelectedPage = {setSelectedpage}
                         />
                         <Link 
-                            page = "Catalysts"
+                            page = "RTA Drafts"
                             selectedPage = {selectedPage}
                             setSelectedPage = {setSelectedpage}
                         />
                         <Link 
-                            page = "RTA Drafts"
+                            page = "Catalysts"
                             selectedPage = {selectedPage}
                             setSelectedPage = {setSelectedpage}
                         />
