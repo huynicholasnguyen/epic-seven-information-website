@@ -26,7 +26,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md: h-full">
+      <div className="w-6/6 mx-auto md: h-full">
         {isAboveMediumScreens && (
           <DotGroup
             selectedPage={selectedPage}
@@ -44,7 +44,7 @@ function App() {
           onViewportEnter={() => setSelectedPage("stats")}
         >
 
-          <Stats />
+          <Stats setSelectedPage={setSelectedPage}/>
 
         </motion.div>
 
