@@ -28,7 +28,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedpage}) => {
                 
                 {/*DESKTOP NAV */}
                 {isDesktop ? (
-                    <div className = "flex justify-between gap-16 font-opensans text-md font-semibold z-40 hover:filter hover:saturate-[-150] transition duration-500">
+                    <div className = "flex justify-between gap-16 font-opensans text-md font-semibold z-40">
                         <Link 
                         page = "Home"
                         selectedPage = {selectedPage}

@@ -4,7 +4,7 @@ import { motion} from "framer-motion";
 import Carousel1 from './Carousel1';
 
 const Stats = () => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px");
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return(
         <section id = "stats" className = "pt-10 pb-24">
@@ -26,9 +26,7 @@ const Stats = () => {
                     </div>
                     <LineGradient width = "w-1/3" />
                     <div className = "mt-10 mb-7 float-left font-playfair text-2xl">
-                        The units that are being showcased are almost RTA-exclusive, not usually used for adventure or hunt. I don't exactly have the best gear
-                        in the world, but I make do with what I've got. I'm unfortunately not a high roller, nor am I a heavy speed contester, but I somehow make things work.
-                        I've somehow managed to peak rank 2000 in RTA with these units. 
+                        Text about stats will go here.
                     </div>
                     
                 </motion.div>

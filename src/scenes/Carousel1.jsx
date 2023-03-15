@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import Arby from '../assets/arby.png';
 import Choux from '../assets/choux.png';
 import Kawerik from '../assets/kawerik.png';
@@ -45,6 +44,24 @@ const Carousel1 = () => {
           data-te-slide-to="3"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 4"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="4"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 5"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="5"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 6"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="6"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 7"></button>
       </div>
       <div
         class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -80,6 +97,30 @@ const Carousel1 = () => {
             src={Vildred}
             class="block w-full"
             alt="Vildred" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Choux}
+            class="block w-full"
+            alt="Choux" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={LcBellona}
+            class="block w-full"
+            alt="LCBellona" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Kawerik}
+            class="block w-full"
+            alt="Kawerik" />
         </div>
       </div>
       <button

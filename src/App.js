@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import Stats from "./scenes/Stats";
+import RTA from './scenes/RTA';
+import Catalysts from './scenes/Catalysts';
 import useMediaQuery from './hooks/useMediaQuery';
 import Navbar from './scenes/Navbar'
 import LineGradient from "./components/LineGradient";
@@ -56,8 +58,12 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("rta")}
+          onViewportEnter={() => setSelectedPage("rta drafts")}
         >
+
+        <RTA setSelectedPage = {setSelectedPage}/>
+          
+
         </motion.div>
       </div>
 
