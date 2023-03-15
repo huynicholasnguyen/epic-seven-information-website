@@ -10,3 +10,5 @@ const Catalysts = () => {
         </div>
     )
 }
+
+export default Catalysts

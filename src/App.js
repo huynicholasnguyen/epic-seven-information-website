@@ -75,6 +75,9 @@ function App() {
           amount="all"
           onViewportEnter={() => setSelectedPage("catalysts")}
         >
+
+          <Catalysts setSelectedPage = {setSelectedPage}/>
+          
         </motion.div>
       </div>
     </div>
