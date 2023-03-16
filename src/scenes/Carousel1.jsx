@@ -6,15 +6,20 @@ import LcBellona from '../assets/lcbellona-build.png';
 import Straze from '../assets/straze.png';
 import Vildred from '../assets/vildred.png';
 import Zahhak from '../assets/zahhak.png';
+import CPavel from '../assets/cpavel.png';
+import Briseria from '../assets/briseria.png';
+import Closer from '../assets/closer.png';
+import Yufine from '../assets/yufine.png';
+import Politis from '../assets/politis.png';
 
 const Carousel1 = () => {
-  return(
+  return (
     <div
       id="carouselExampleIndicators"
       class="relative"
       data-te-carousel-init
       data-te-carousel-slide
-      >
+    >
       <div
         class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
         data-te-carousel-indicators>
@@ -50,18 +55,48 @@ const Carousel1 = () => {
           data-te-slide-to="4"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 5"></button>
-          <button
+        <button
           type="button"
           data-te-target="#carouselExampleIndicators"
           data-te-slide-to="5"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 6"></button>
-          <button
+        <button
           type="button"
           data-te-target="#carouselExampleIndicators"
           data-te-slide-to="6"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 7"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="7"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 8"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="8"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 9"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="9"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 10"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="10"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 11"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="11"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 12"></button>
       </div>
       <div
         class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -122,6 +157,46 @@ const Carousel1 = () => {
             class="block w-full"
             alt="Kawerik" />
         </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={CPavel}
+            class="block w-full"
+            alt="CPavel" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Briseria}
+            class="block w-full"
+            alt="Briseria" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Closer}
+            class="block w-full"
+            alt="Closer" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Yufine}
+            class="block w-full"
+            alt="Yufine" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Politis}
+            class="block w-full"
+            alt="Politis" />
+        </div>
       </div>
       <button
         class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
@@ -173,6 +248,6 @@ const Carousel1 = () => {
     </div>
   )
 }
-    
+
 
 export default Carousel1;

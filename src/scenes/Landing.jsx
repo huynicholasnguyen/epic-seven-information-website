@@ -19,7 +19,7 @@ const Landing = ({setSelectedPage}) => {
                             src = {lcbellonaArt}
                         />
                         <div className = 'font-playfair absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1'>
-                            Test
+                            Welcome to my page! *Write some more stuff here as an introduction*
                         </div>
                         {/* TEXT */}
                         <motion.div
