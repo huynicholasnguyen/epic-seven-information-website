@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from 'framer-motion';
+import Draft1 from '../assets/rta/draft1.png';
 
 const container = {
     hidden: {},
@@ -13,7 +14,7 @@ const rtaVariant = {
     visible: {opacity: 1, scale: 1}
 }
 
-const Draft = ({title}) => {
+const Draft = ({title, image}) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover: opactiy-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const draftTitle = title.split(" ").join("-").toLowerCase();
 
@@ -25,9 +26,10 @@ const Draft = ({title}) => {
                 <p className = 'text-2xl font-playfair'>
                     {title}
                 </p>
-                <p>
+                <p className = "mt-7">
                     Insert text here.
                 </p>
+                <img src = {image} alt = {draftTitle}/>
             </div>
         </motion.div>
     )
@@ -73,12 +75,25 @@ const RTA = () => {
                     viewport={{ once: true, amount: 0.5 }}
                     variants={container}
                 >
+                    {/* ROW 1 */}
                     <div
                         className = 'flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'
                     >
                         Some text here
                     </div>
-                    <Draft title = "Draft 1"/>
+                    <Draft title = "Draft 1" image = 'Draft1'/>
+                    <Draft title = "Draft 2"/>
+
+                    {/* ROW 2 */}
+                    <Draft title = "Draft 3"/>
+                    <Draft title = "Draft 4"/>
+                    <Draft title = "Draft 5"/>
+
+                    {/* ROW 3 */}
+                    <Draft title = "Draft 6"/>
+                    <Draft title = "Draft 7"/>
+                    <Draft title = "Draft 8"/>
+
                     
                 </motion.div>
             </div>
