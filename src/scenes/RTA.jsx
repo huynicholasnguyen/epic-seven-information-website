@@ -5,32 +5,32 @@ import Draft1 from '../assets/rta/draft1.png';
 const container = {
     hidden: {},
     visible: {
-        transition: { staggerChildren: 0.2},
+        transition: { staggerChildren: 0.2 },
     },
 }
 
 const rtaVariant = {
-    hidden: {opacity: 0, scale: 0.8},
-    visible: {opacity: 1, scale: 1}
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1 }
 }
 
-const Draft = ({title, image, text}) => {
+const Draft = ({ title, image, text }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const draftTitle = title.split(" ").join("-").toLowerCase();
 
     return (
         <motion.div
-            variants = {rtaVariant} className = 'relative'
+            variants={rtaVariant} className='relative'
         >
-            <div className = {overlayStyles}>
-                <p className = 'text-2xl font-playfair text-black'>
+            <div className={overlayStyles}>
+                <p className='text-2xl font-playfair text-black'>
                     {title}
                 </p>
-                <p className = "mt-7 text-black">
+                <p className="mt-7 text-black">
                     {text}
                 </p>
             </div>
-            <img src = {image} alt = {draftTitle}/>
+            <img src={image} alt={draftTitle} />
         </motion.div>
     )
 }
@@ -69,36 +69,56 @@ const RTA = () => {
 
             <div className='flex justify-center'>
                 <motion.div
-                    className="sm:grid sm:grid-cols-3"
-                    variants = {container}
+                    className="sm:grid sm:grid-cols-4"
+                    variants={container}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2 }}
                 >
                     {/* ROW 1 */}
-                    <div
-                        className = 'flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'
-                    >
-                        Some text here
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Aggro Drafts
                     </div>
-                    <Draft 
-                        title = "Draft 1" 
-                        image = {Draft1}
-                        text = 'TEST TEXT'
+                    <Draft
+                        title="Draft 1"
+                        image={Draft1}
+                        text='Aggro Draft with Amid as cleanser. Amid is generally the bait for ban, as LCBellona and Stene are going to be a deadly combo for later in the match.'
                     />
-                    <Draft title = "Draft 2"/>
+                    <Draft
+                        title="Draft 2"
+                        image=''
+                        text='TEST TEXT'
+                    />
+                    <Draft
+                        title="Draft 3"
+                    />
 
                     {/* ROW 2 */}
-                    <Draft title = "Draft 3" />
-                    <Draft title = "Draft 4"/>
-                    <Draft title = "Draft 5"/>
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Cleave Drafts
+                    </div>
+                    <Draft
+                        title="Draft 4"
+                    />
+                    <Draft
+                        title="Draft 5"
+                    />
+                    <Draft
+                        title="Draft 6"
+                    />
 
                     {/* ROW 3 */}
-                    <Draft title = "Draft 6"/>
-                    <Draft title = "Draft 7"/>
-                    <Draft title = "Draft 8"/>
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Standard Drafts
+                    </div>
+                    <Draft
+                        title="Draft 7"
+                    />
+                    <Draft
+                        title="Draft 8"
+                    />
 
-                    
+
                 </motion.div>
             </div>
         </section>
