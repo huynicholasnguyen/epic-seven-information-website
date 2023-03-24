@@ -82,7 +82,7 @@ const RTA = () => {
                         Some text here
                     </div>
                     <Draft 
-                        title = "Draft 1" 
+                        title = "Aggro Lone Crescent Bellona Draft" 
                         image = {Draft1}
                         text = 'TEST TEXT'
                     />
