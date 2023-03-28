@@ -37,7 +37,7 @@ const Draft = ({ title, image, text }) => {
 
 const RTA = () => {
     return (
-        <section id='projects' className='pt:48 pb-48'>
+        <section id='rta' className='pt:48 pb-48'>
             {/*HEADINGS*/}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"
