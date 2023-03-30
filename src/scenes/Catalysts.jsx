@@ -1,7 +1,7 @@
-import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
-
+import AncientCreatureNucleus from '../assets/catalysts/ancient_creature_nucleus.png'
+import SlimeJelly from '../assets/catalysts/slime_jelly.png'
 const container = {
     hidden: {},
     visible: {
@@ -30,7 +30,7 @@ const Catalyst = ({ name, image, text }) => {
                     {text}
                 </p>
             </div>
-            <img src={image} alt={catalystName} />
+            <img className = 'w-full' src = {image} alt={catalystName} />
         </motion.div>
     )
 }
@@ -67,27 +67,96 @@ const Catalysts = () => {
             {/*Catalyst Information */}
             <div className='flex justify-center'>
                 <motion.div
-                    className="sm:grid sm:grid-cols-3"
+                    className="sm:grid sm:grid-cols-4"
                     variants={container}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2 }}
                 >
                     {/*ROW 1*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Aquarius
+                    </div>
+                    <Catalyst name='Order of the Shield Insignia'/>
+                    <Catalyst name='Leather Sheath'/>
+                    <Catalyst name='Fighter Medal'/>
                     {/*ROW 2*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Aries
+                    </div>
+                    <Catalyst name = 'Blessing of Orbis'/>
+                    <Catalyst name = 'Path Power Loop'/>
+                    <Catalyst name = 'Nightmare Mask'/>
                     {/*ROW 3*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Cancer
+                    </div>
+                    <Catalyst name = 'Special Alarm Loop'/>
+                    <Catalyst name = 'Baby Mouse Insignia'/>
+                    <Catalyst name = 'The Heart of Hypocrisy'/>
                     {/*ROW 4*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Capricorn
+                    </div>
+                    <Catalyst name = 'Cursed Ashes'/>
+                    <Catalyst name = 'Slime Jelly' image = {SlimeJelly}/>
+                    <Catalyst name = "Dragon's Wrath"/>
                     {/*ROW 5*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Gemini
+                    </div>
+                    <Catalyst name = 'Small Sun Badge'/>
+                    <Catalyst name = 'Ring of Glory'/>
+                    <Catalyst name = 'Fused Nerve'/>
                     {/*ROW 6*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Leo
+                    </div>
+                    <Catalyst name = 'Ultra Fang'/>
+                    <Catalyst name = 'Twisted Fang'/>
+                    <Catalyst name = "Blazing Soul"/>
                     {/*ROW 7*/}
-
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Libra
+                    </div>
+                    <Catalyst name = 'Dream Time Circuit'/>
+                    <Catalyst name = 'Mysterious Flash'/>
+                    <Catalyst name = 'Reingar Student ID'/>
                     {/*ROW 8*/}
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Pisces
+                    </div>
+                    <Catalyst name = 'Blood Flaked Bone'/>
+                    <Catalyst name = 'Strange Jelly'/>
+                    <Catalyst name = 'Ancient Creature Nucleus' image = {AncientCreatureNucleus}/>
+                    {/*ROW 9*/}
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Sagittarius
+                    </div>
+                    <Catalyst name = 'Cold Look'/>
+                    <Catalyst name = "Archer's Vision"/>
+                    <Catalyst name = "Mercenerary's Medicine"/>
+                    {/*ROw 10*/}
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Scorpio
+                    </div>
+                    <Catalyst name = 'Erikion Carapace'/>
+                    <Catalyst name = 'Sharp Spearhead'/>
+                    <Catalyst name = 'Black Curse Powder'/>
+                    {/*ROW 11*/}
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Taurus
+                    </div>
+                    <Catalyst name = 'Blazing Rage'/>
+                    <Catalyst name = 'Shiny Enchantment'/>
+                    <Catalyst name = 'Horn of Desire'/>
+                    {/*ROW 12*/}
+                    <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
+                        Virgo
+                    </div>
+                    <Catalyst name = 'Eternal Forest Dust'/>
+                    <Catalyst name = 'Flame of Soul'/>
+                    <Catalyst name = 'Demon Blood Gem'/>
 
                 </motion.div>
             </div>
