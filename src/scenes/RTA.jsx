@@ -117,6 +117,9 @@ const RTA = () => {
                     <Draft
                         title="Draft 8"
                     />
+                    <Draft
+                        title = "Draft 9"
+                    />
 
 
                 </motion.div>

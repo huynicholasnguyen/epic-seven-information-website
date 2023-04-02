@@ -2,6 +2,13 @@ import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import AncientCreatureNucleus from '../assets/catalysts/ancient_creature_nucleus.png'
 import SlimeJelly from '../assets/catalysts/slime_jelly.png'
+import FighterMedal from '../assets/catalysts/fighter_medal.png'
+import BlackCursePowder from '../assets/catalysts/black_curse_powder.png'
+import BlazingSoul from '../assets/catalysts/blazing_soul.png'
+import DemonBloodGem from '../assets/catalysts/demon_blood_gem.png'
+import DragonsWrath from '../assets/catalysts/dragons_wrath.png'
+import FusedNerve from '../assets/catalysts/fused_nerve.png'
+import HeartOfHypocrisy from '../assets/catalysts/heart_of_hypocrisy.png'
 const container = {
     hidden: {},
     visible: {
@@ -30,7 +37,7 @@ const Catalyst = ({ name, image, text }) => {
                     {text}
                 </p>
             </div>
-            <img className = 'w-full' src = {image} alt={catalystName} />
+            <img className = 'w-full justify-center' src = {image} alt={catalystName} />
         </motion.div>
     )
 }
@@ -79,7 +86,7 @@ const Catalysts = () => {
                     </div>
                     <Catalyst name='Order of the Shield Insignia'/>
                     <Catalyst name='Leather Sheath'/>
-                    <Catalyst name='Fighter Medal'/>
+                    <Catalyst name='Fighter Medal' image = {FighterMedal} />
                     {/*ROW 2*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Aries
@@ -93,28 +100,28 @@ const Catalysts = () => {
                     </div>
                     <Catalyst name = 'Special Alarm Loop'/>
                     <Catalyst name = 'Baby Mouse Insignia'/>
-                    <Catalyst name = 'The Heart of Hypocrisy'/>
+                    <Catalyst name = 'The Heart of Hypocrisy' image = {HeartOfHypocrisy}/>
                     {/*ROW 4*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Capricorn
                     </div>
                     <Catalyst name = 'Cursed Ashes'/>
-                    <Catalyst name = 'Slime Jelly' image = {SlimeJelly}/>
-                    <Catalyst name = "Dragon's Wrath"/>
+                    <Catalyst name = 'Slime Jelly' image = {SlimeJelly} text = 'Found in 1, 2, 8, 10 of Unrecorded History'/>
+                    <Catalyst name = "Dragon's Wrath" image = {DragonsWrath}/>
                     {/*ROW 5*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Gemini
                     </div>
                     <Catalyst name = 'Small Sun Badge'/>
                     <Catalyst name = 'Ring of Glory'/>
-                    <Catalyst name = 'Fused Nerve'/>
+                    <Catalyst name = 'Fused Nerve' image = {FusedNerve}/>
                     {/*ROW 6*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Leo
                     </div>
                     <Catalyst name = 'Ultra Fang'/>
                     <Catalyst name = 'Twisted Fang'/>
-                    <Catalyst name = "Blazing Soul"/>
+                    <Catalyst name = "Blazing Soul" image = {BlazingSoul}/>
                     {/*ROW 7*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Libra
@@ -142,7 +149,7 @@ const Catalysts = () => {
                     </div>
                     <Catalyst name = 'Erikion Carapace'/>
                     <Catalyst name = 'Sharp Spearhead'/>
-                    <Catalyst name = 'Black Curse Powder'/>
+                    <Catalyst name = 'Black Curse Powder' image = {BlackCursePowder} />
                     {/*ROW 11*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Taurus
@@ -156,7 +163,7 @@ const Catalysts = () => {
                     </div>
                     <Catalyst name = 'Eternal Forest Dust'/>
                     <Catalyst name = 'Flame of Soul'/>
-                    <Catalyst name = 'Demon Blood Gem'/>
+                    <Catalyst name = 'Demon Blood Gem' image = {DemonBloodGem}/>
 
                 </motion.div>
             </div>
