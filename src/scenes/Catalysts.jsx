@@ -30,6 +30,12 @@ import BloodFlakedBone from '../assets/catalysts/blood-flaked-bone.png'
 import StrangeJelly from '../assets/catalysts/strange-jelly.png'
 import ColdLook from '../assets/catalysts/cold-look.png'
 import ArchersVision from '../assets/catalysts/archers-vision.png'
+import ErikionCarapace from '../assets/catalysts/erikion-carapace.png'
+import SharpSpearhead from '../assets/catalysts/sharp-spearhead.png'
+import BlazingRage from '../assets/catalysts/blazing-rage.png'
+import ShinyEnchantment from '../assets/catalysts/shiny-enchantment.png'
+import EternalForestDust from '../assets/catalysts/eternal-forest-dust.png'
+import FlameOfSoul from '../assets/catalysts/flame-of-soul.png'
 const container = {
     hidden: {},
     visible: {
@@ -88,7 +94,7 @@ const Catalysts = () => {
                 </div>
 
                 <div className='mt-10 mb-10'>
-                    Sorted by Zodiac Sign. Hover over the Catalyst to find where to farm in Unrecorded History
+                    Sorted by Zodiac Sign. Hover over the Catalyst to find where to farm in Unrecorded History.
                 </div>
             </motion.div>
 
@@ -127,7 +133,7 @@ const Catalysts = () => {
                         CAPRICORN
                     </div>
                     <Catalyst name = 'Cursed Ashes' image = {CursedAshes}/>
-                    <Catalyst name = 'Slime Jelly' image = {SlimeJelly} text = 'Found in 1, 2, 8, 10 of Unrecorded History'/>
+                    <Catalyst name = 'Slime Jelly' image = {SlimeJelly} text = 'Found in 1, 2, 8, 10'/>
                     <Catalyst name = "Dragon's Wrath" image = {DragonsWrath}/>
                     {/*ROW 5*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
@@ -168,22 +174,22 @@ const Catalysts = () => {
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         SCORPIO
                     </div>
-                    <Catalyst name = 'Erikion Carapace'/>
-                    <Catalyst name = 'Sharp Spearhead'/>
+                    <Catalyst name = 'Erikion Carapace' image = {ErikionCarapace}/>
+                    <Catalyst name = 'Sharp Spearhead' image = {SharpSpearhead}/>
                     <Catalyst name = 'Black Curse Powder' image = {BlackCursePowder} />
                     {/*ROW 11*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         TAURUS
                     </div>
-                    <Catalyst name = 'Blazing Rage'/>
-                    <Catalyst name = 'Shiny Enchantment'/>
+                    <Catalyst name = 'Blazing Rage' image = {BlazingRage}/>
+                    <Catalyst name = 'Shiny Enchantment' image = {ShinyEnchantment}/>
                     <Catalyst name = 'Horn of Desire' image = {HornOfDesire}/>
                     {/*ROW 12*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         VIRGO
                     </div>
-                    <Catalyst name = 'Eternal Forest Dust'/>
-                    <Catalyst name = 'Flame of Soul'/>
+                    <Catalyst name = 'Eternal Forest Dust' image = {EternalForestDust}/>
+                    <Catalyst name = 'Flame of Soul' image = {FlameOfSoul}/>
                     <Catalyst name = 'Demon Blood Gem' image = {DemonBloodGem}/>
 
                 </motion.div>

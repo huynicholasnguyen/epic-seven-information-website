@@ -1,6 +1,9 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from 'framer-motion';
 import Draft1 from '../assets/rta/draft1.png';
+import Cleave1 from '../assets/rta/cleave-draft1.png';
+import Cleave2 from '../assets/rta/cleave-draft2.png';
+import Standard1 from '../assets/rta/standard-draft1.png'
 
 const container = {
     hidden: {},
@@ -30,14 +33,14 @@ const Draft = ({ title, image, text }) => {
                     {text}
                 </p>
             </div>
-            <img src={image} alt={draftTitle} />
+            <img className = 'w-full justify-center' src={image} alt={draftTitle} />
         </motion.div>
     )
 }
 
 const RTA = () => {
     return (
-        <section id='rta' className='pt:48 pb-48'>
+        <section id='rta' className='pt:48 pb-48 relative'>
             {/*HEADINGS*/}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"
@@ -69,7 +72,7 @@ const RTA = () => {
 
             <div className='flex justify-center'>
                 <motion.div
-                    className="sm:grid sm:grid-cols-4"
+                    className="sm:grid sm:grid-cols-4 relative flex"
                     variants={container}
                     initial="hidden"
                     whileInView="visible"
@@ -77,7 +80,7 @@ const RTA = () => {
                 >
                     {/* ROW 1 */}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
-                        Aggro Drafts
+                        AGGRO
                     </div>
                     <Draft
                         title="Draft 1"
@@ -95,13 +98,17 @@ const RTA = () => {
 
                     {/* ROW 2 */}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
-                        Cleave Drafts
+                        CLEAVE
                     </div>
                     <Draft
                         title="Draft 4"
+                        image = {Cleave1}
+                        text = 'Zio/Lua as the openers, with Yufine as the bridge for Zio and Eda as the bridge for Lua. Briseria was a flex pick, could be Commander Pavel as well depending on situation.'
                     />
                     <Draft
                         title="Draft 5"
+                        image = {Cleave2}
+                        text = "Essentially the same idea as the first one, except the bridges are Zio/Yufine and Lua/Cavel. I only picked Straze here because of how tanky the other team is and I knew with my Straze I had a good chance of outspeeding."
                     />
                     <Draft
                         title="Draft 6"
@@ -109,10 +116,12 @@ const RTA = () => {
 
                     {/* ROW 3 */}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
-                        Standard Drafts
+                        STANDARD
                     </div>
                     <Draft
                         title="Draft 7"
+                        image = {Standard1}
+                        text = "Sample Standard Draft. Usually I'd op for two openers but it just so happened that I could draft multiple units that could counter/sustain."
                     />
                     <Draft
                         title="Draft 8"
