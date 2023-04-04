@@ -40,7 +40,7 @@ const Draft = ({ title, image, text }) => {
 
 const RTA = () => {
     return (
-        <section id='rta' className='pt:48 pb-48 relative'>
+        <section id='rta' className='pt:48 relative'>
             {/*HEADINGS*/}
             <motion.div
                 className="md:w-2/4 mx-auto text-center"
@@ -62,10 +62,6 @@ const RTA = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 mb-10">
-                    Test
-                </div>
-
             </motion.div>
 
             {/*RTA information*/}
@@ -83,17 +79,17 @@ const RTA = () => {
                         AGGRO
                     </div>
                     <Draft
-                        title="Draft 1"
+                        title = 'Draft 1'
                         image={Draft1}
                         text='Aggro Draft with Amid as cleanser. Amid is generally the bait for ban, as LCBellona and Stene are going to be a deadly combo for later in the match.'
                     />
                     <Draft
-                        title="Draft 2"
+                        title = 'Draft 2'
                         image=''
                         text='TEST TEXT'
                     />
                     <Draft
-                        title="Draft 3"
+                        title = 'Draft 3'
                     />
 
                     {/* ROW 2 */}

@@ -11,6 +11,8 @@ import Briseria from '../assets/briseria.png';
 import Closer from '../assets/closer.png';
 import Yufine from '../assets/yufine.png';
 import Politis from '../assets/politis.png';
+import SpecterTenebria from '../assets/specter-tenebria.png'
+import AssassinCidd from '../assets/assassin-cidd.png'
 
 const Carousel1 = () => {
   return (
@@ -97,6 +99,18 @@ const Carousel1 = () => {
           data-te-slide-to="11"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 12"></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="12"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 13"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="13"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 14"></button>
       </div>
       <div
         class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -196,6 +210,22 @@ const Carousel1 = () => {
             src={Politis}
             class="block w-full"
             alt="Politis" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={SpecterTenebria}
+            class="block w-full"
+            alt="Specter Tenebria" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={AssassinCidd}
+            class="block w-full"
+            alt="Assassin Cidd" />
         </div>
       </div>
       <button

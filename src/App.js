@@ -7,6 +7,7 @@ import Catalysts from './scenes/Catalysts';
 import useMediaQuery from './hooks/useMediaQuery';
 import Navbar from './scenes/Navbar'
 import LineGradient from "./components/LineGradient";
+import Footer from './scenes/Footer';
 import { motion } from 'framer-motion';
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -46,7 +47,7 @@ function App() {
           onViewportEnter={() => setSelectedPage("stats")}
         >
 
-          <Stats setSelectedPage={setSelectedPage}/>
+          <Stats setSelectedPage={setSelectedPage} />
 
         </motion.div>
 
@@ -54,32 +55,38 @@ function App() {
 
       <LineGradient />
 
-      <div className='w-5/6 mx-auto md:h-full'>
+      <div className='w-5/6 mx-auto lg:h-full'>
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("rta drafts")}
         >
 
-        <RTA setSelectedPage = {setSelectedPage}/>
-          
+          <RTA setSelectedPage={setSelectedPage} />
+
 
         </motion.div>
       </div>
 
       <LineGradient />
 
-      <div className='w-5/6 mx-auto md:h-full relative'>
+      <div className='w-5/6 mx-auto 2xl:h-full relative'>
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("catalysts")}
         >
 
-          <Catalysts setSelectedPage = {setSelectedPage}/>
-          
+          <Catalysts setSelectedPage={setSelectedPage} />
+
         </motion.div>
       </div>
+
+      <div className = 'h-24 bg-black'>
+        <Footer />
+      </div>
+
+
     </div>
   );
 }
