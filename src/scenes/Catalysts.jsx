@@ -85,7 +85,8 @@ const Catalysts = () => {
                 }}
             >
                 <div>
-                    <div className='font-playfair font-semibold text-4xl mt-5'>
+                    <div className = 'bg-inherit h-5'> </div>
+                    <div className='font-playfair font-semibold text-4xl mt-20'>
                         <span className='text-white'>CATALYSTS</span>
                     </div>
                     <div className='flex justify-center mt-5'>
