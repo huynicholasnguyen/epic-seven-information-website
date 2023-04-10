@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Draft1 from '../assets/rta/draft1.png';
 import Cleave1 from '../assets/rta/cleave-draft1.png';
 import Cleave2 from '../assets/rta/cleave-draft2.png';
-import Standard1 from '../assets/rta/standard-draft1.png'
+import Standard1 from '../assets/rta/standard-draft1.png';
 
 const container = {
     hidden: {},
