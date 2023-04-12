@@ -10,7 +10,7 @@ const Landing = ({setSelectedPage}) => {
         <section id = "home" className = "md:flex md:justify-center md:items-center md:h-full py-10">
 
             {/* IMAGE SECTION */}
-            <div className = "basis-5/6 z-10 flex justify-center md:order-2">
+            <div className = "basis-5/6 z-10 flex justify-center md:order-2 mt-20">
                 {isAboveMediumScreens ? (
                     <div className = "relative">
                         <img
