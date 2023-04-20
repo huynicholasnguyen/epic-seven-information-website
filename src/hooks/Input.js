@@ -9,16 +9,25 @@ export default function Input() {
         setUpdated(inputRef.current.value);
     }
     return(
-        <div>
-            <input
+        <div className = 'mx-auto'>
+            <div class = 'dropdown'>
+                <button class = 'dropbtn'>
+                    <a href = '#'>Test</a>
+                    <a href = '#'>Test</a>
+                    <a href = '#'>Test</a>
+                </button>
+
+            </div>
+            <input 
+                className = 'text-black'
                 ref = {inputRef}
-                type = "text"
+                type = "number"
                 id = "message"
                 name = "message"
             />
-            <h2> Updated: {updated} </h2>
+            <h2>{updated}</h2>
             
-            <button onClick = {handleClick}>Update</button>
+            <button onClick = {handleClick} className = 'bg-grey text-black mx-auto rounded'>Update</button>
         </div>
     )
 }
