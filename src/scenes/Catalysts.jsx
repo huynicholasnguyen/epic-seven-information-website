@@ -112,50 +112,50 @@ const Catalysts = () => {
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         AQUARIUS
                     </div>
-                    <Catalyst name='Order of the Shield Insignia' image = {OrderOfTheShieldInsignia}/>
-                    <Catalyst name='Leather Sheath' image = {LeatherSheath}/>
-                    <Catalyst name='Fighter Medal' image = {FighterMedal} />
+                    <Catalyst name='Order of the Shield Insignia' image = {OrderOfTheShieldInsignia} text = "Found in 18, 19, 20"/>
+                    <Catalyst name='Leather Sheath' image = {LeatherSheath} text = "Found in 12, 13, 22"/>
+                    <Catalyst name='Fighter Medal' image = {FighterMedal} text = "Found in 26"/>
                     {/*ROW 2*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         ARIES
                     </div>
-                    <Catalyst name = 'Blessing of Orbis' image = {BlessingOfOrbis}/>
-                    <Catalyst name = 'Path Power Loop' image = {PathPowerLoop}/>
-                    <Catalyst name = 'Nightmare Mask' image = {NightmareMask}/>
+                    <Catalyst name = 'Blessing of Orbis' image = {BlessingOfOrbis} text = "Found in 4, 21"/>
+                    <Catalyst name = 'Path Power Loop' image = {PathPowerLoop} text = 'Found in 5, 6, S1, 20'/>
+                    <Catalyst name = 'Nightmare Mask' image = {NightmareMask} text = 'Found in 7'/>
                     {/*ROW 3*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         CANCER
                     </div>
-                    <Catalyst name = 'Special Alarm Loop' image = {SpecialAlarmLoop}/>
-                    <Catalyst name = 'Baby Mouse Insignia' image = {BabyMouseInsignia}/>
-                    <Catalyst name = 'The Heart of Hypocrisy' image = {HeartOfHypocrisy}/>
+                    <Catalyst name = 'Special Alarm Loop' image = {SpecialAlarmLoop} text = 'Found in 5, 6, S1, 18'/>
+                    <Catalyst name = 'Baby Mouse Insignia' image = {BabyMouseInsignia} text = 'Found in 11'/>
+                    <Catalyst name = 'The Heart of Hypocrisy' image = {HeartOfHypocrisy} text = 'Found in 27'/>
                     {/*ROW 4*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         CAPRICORN
                     </div>
-                    <Catalyst name = 'Cursed Ashes' image = {CursedAshes}/>
+                    <Catalyst name = 'Cursed Ashes' image = {CursedAshes} text = 'Found in 3, 25'/>
                     <Catalyst name = 'Slime Jelly' image = {SlimeJelly} text = 'Found in 1, 2, 8, 10'/>
-                    <Catalyst name = "Dragon's Wrath" image = {DragonsWrath}/>
+                    <Catalyst name = "Dragon's Wrath" image = {DragonsWrath} text = 'Found in 15'/>
                     {/*ROW 5*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         Gemini
                     </div>
-                    <Catalyst name = 'Small Sun Badge' image = {SmallSunBadge}/>
-                    <Catalyst name = 'Ring of Glory' image = {RingOfGlory}/>
-                    <Catalyst name = 'Fused Nerve' image = {FusedNerve}/>
+                    <Catalyst name = 'Small Sun Badge' image = {SmallSunBadge} text = 'Found in 13, 27, 29, 30, 32'/>
+                    <Catalyst name = 'Ring of Glory' image = {RingOfGlory} text = 'Found in 26, 27, 29, 30, 31, 32'/>
+                    <Catalyst name = 'Fused Nerve' image = {FusedNerve} text = 'Found in 23'/>
                     {/*ROW 6*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         LEO
                     </div>
-                    <Catalyst name = 'Ultra Fang'image = {UltraFang}/>
-                    <Catalyst name = 'Twisted Fang' image = {TwistedFang}/>
-                    <Catalyst name = "Blazing Soul" image = {BlazingSoul}/>
+                    <Catalyst name = 'Ultra Fang'image = {UltraFang} text = 'Found in 17'/>
+                    <Catalyst name = 'Twisted Fang' image = {TwistedFang} text = 'Found in 25'/>
+                    <Catalyst name = "Blazing Soul" image = {BlazingSoul} text = 'Found in 13'/>
                     {/*ROW 7*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         LIBRA
                     </div>
-                    <Catalyst name = 'Dream Time Circuit' image = {DreamTimeCircuit}/>
-                    <Catalyst name = 'Mysterious Flash' image = {MysteriousFlash}/>
+                    <Catalyst name = 'Dream Time Circuit' image = {DreamTimeCircuit} text = 'Found in 7'/>
+                    <Catalyst name = 'Mysterious Flash' image = {MysteriousFlash} text = 'Found in 4, 19, 20'/>
                     <Catalyst name = 'Reingar Student ID' image = {ReingarStudentID}/>
                     {/*ROW 8*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
