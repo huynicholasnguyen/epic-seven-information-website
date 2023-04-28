@@ -10,8 +10,8 @@ export default function Input() {
     }
     return(
         <div className = 'mx-auto'>
-            <div class = 'dropdown'>
-                <button class = 'dropbtn'>
+            <div className = 'relative block'>
+                <button className = 'relative block'>
                     <a href = '#'>Test</a>
                     <a href = '#'>Test</a>
                     <a href = '#'>Test</a>
