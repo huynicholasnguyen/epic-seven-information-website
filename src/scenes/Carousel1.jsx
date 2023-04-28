@@ -13,6 +13,20 @@ import Yufine from '../assets/yufine.png';
 import Politis from '../assets/politis.png';
 import SpecterTenebria from '../assets/specter-tenebria.png'
 import AssassinCidd from '../assets/assassin-cidd.png'
+import Aravi from '../assets/aravi.png'
+import Cidd from '../assets/cidd.png'
+import Aria from '../assets/aria.png'
+import BBK from '../assets/bbk.png'
+import Celine from '../assets/celine.png'
+import Clilias from '../assets/clilias.png'
+import Destina from '../assets/destina.png'
+import Eda from '../assets/eda.png'
+import Kayron from '../assets/kayron.png'
+import Laika from '../assets/laika.png'
+import Lua from '../assets/lua.png'
+import OpSig from '../assets/opsig.png'
+import ScArowell from '../assets/scarrowel.png'
+import Zio from '../assets/zio.png'
 
 const Carousel1 = () => {
   return (
