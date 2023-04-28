@@ -83,20 +83,6 @@ function App() {
         </motion.div>
       </div>
 
-      <LineGradient />
-
-      <div className="w-5/6 mx-auto md:h-6/6">
-        <motion.div
-          amount="all"
-          onViewportEnter={() => setSelectedPage("calculator")}
-        >
-
-          <Calculator setSelectedPage={setSelectedPage} />
-
-        </motion.div>
-
-      </div>
-
       <div className = 'h-24 bg-black'>
         <Footer />
       </div>
