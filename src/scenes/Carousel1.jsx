@@ -125,6 +125,12 @@ const Carousel1 = () => {
           data-te-slide-to="13"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 14"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="14"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 15"></button>
       </div>
       <div
         class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -240,6 +246,14 @@ const Carousel1 = () => {
             src={AssassinCidd}
             class="block w-full"
             alt="Assassin Cidd" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Zio}
+            class="block w-full"
+            alt="Zio" />
         </div>
       </div>
       <button
