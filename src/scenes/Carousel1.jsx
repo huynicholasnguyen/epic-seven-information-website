@@ -131,6 +131,84 @@ const Carousel1 = () => {
           data-te-slide-to="14"
           class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 15"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="15"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 16"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="16"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 17"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="17"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 18"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="18"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 19"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="19"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 20"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="20"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 21"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="21"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 22"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="22"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 23"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="23"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 24"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="24"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 25"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="25"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 26"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="26"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 27"></button>
+          <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="27"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 28"></button>
       </div>
       <div
         class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -254,6 +332,110 @@ const Carousel1 = () => {
             src={Zio}
             class="block w-full"
             alt="Zio" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Aravi}
+            class="block w-full"
+            alt="Aravi" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Cidd}
+            class="block w-full"
+            alt="Cidd" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Aria}
+            class="block w-full"
+            alt="Aria" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={BBK}
+            class="block w-full"
+            alt="bbk" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Celine}
+            class="block w-full"
+            alt="Celine" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Clilias}
+            class="block w-full"
+            alt="Clilias" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Destina}
+            class="block w-full"
+            alt="Destina" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Eda}
+            class="block w-full"
+            alt="Eda" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Kayron}
+            class="block w-full"
+            alt="Zio" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Laika}
+            class="block w-full"
+            alt="Laika" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={Lua}
+            class="block w-full"
+            alt="Lua" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={OpSig}
+            class="block w-full"
+            alt="Opsig" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img
+            src={ScArowell}
+            class="block w-full"
+            alt="ScArowell" />
         </div>
       </div>
       <button

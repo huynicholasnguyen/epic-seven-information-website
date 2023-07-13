@@ -156,42 +156,42 @@ const Catalysts = () => {
                     </div>
                     <Catalyst name = 'Dream Time Circuit' image = {DreamTimeCircuit} text = 'Found in 7'/>
                     <Catalyst name = 'Mysterious Flash' image = {MysteriousFlash} text = 'Found in 4, 19, 20'/>
-                    <Catalyst name = 'Reingar Student ID' image = {ReingarStudentID}/>
+                    <Catalyst name = 'Reingar Student ID' image = {ReingarStudentID} text = 'Found in 5'/>
                     {/*ROW 8*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         PISCES
                     </div>
-                    <Catalyst name = 'Blood Flaked Bone' image = {BloodFlakedBone}/>
-                    <Catalyst name = 'Strange Jelly' image = {StrangeJelly}/>
-                    <Catalyst name = 'Ancient Creature Nucleus' image = {AncientCreatureNucleus}/>
+                    <Catalyst name = 'Blood Flaked Bone' image = {BloodFlakedBone} text = "Found in 3, 25"/>
+                    <Catalyst name = 'Strange Jelly' image = {StrangeJelly} text = 'Found in 3, 33'/>
+                    <Catalyst name = 'Ancient Creature Nucleus' image = {AncientCreatureNucleus} text = 'Found in 24'/>
                     {/*ROW 9*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         SAGITTARIUS
                     </div>
-                    <Catalyst name = 'Cold Look' image = {ColdLook}/>
-                    <Catalyst name = "Archer's Vision" image = {ArchersVision}/>
-                    <Catalyst name = "Mercenerary's Medicine" image = {MercenarysMedicine}/>
+                    <Catalyst name = 'Cold Look' image = {ColdLook} text = 'Found in 25'/>
+                    <Catalyst name = "Archer's Vision" image = {ArchersVision} text = 'Found in 22, 32'/>
+                    <Catalyst name = "Mercenerary's Medicine" image = {MercenarysMedicine} text = 'Found in 11'/>
                     {/*ROw 10*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         SCORPIO
                     </div>
-                    <Catalyst name = 'Erikion Carapace' image = {ErikionCarapace}/>
-                    <Catalyst name = 'Sharp Spearhead' image = {SharpSpearhead}/>
-                    <Catalyst name = 'Black Curse Powder' image = {BlackCursePowder} />
+                    <Catalyst name = 'Erikion Carapace' image = {ErikionCarapace} text = 'Found in 13, 16, 23, 24'/>
+                    <Catalyst name = 'Sharp Spearhead' image = {SharpSpearhead} text = 'Found in 12, 13'/>
+                    <Catalyst name = 'Black Curse Powder' image = {BlackCursePowder} text = 'Found in 22'/>
                     {/*ROW 11*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         TAURUS
                     </div>
-                    <Catalyst name = 'Blazing Rage' image = {BlazingRage}/>
-                    <Catalyst name = 'Shiny Enchantment' image = {ShinyEnchantment}/>
-                    <Catalyst name = 'Horn of Desire' image = {HornOfDesire}/>
+                    <Catalyst name = 'Blazing Rage' image = {BlazingRage} text = 'Found in 15, 16'/>
+                    <Catalyst name = 'Shiny Enchantment' image = {ShinyEnchantment} text = 'Found in 15'/>
+                    <Catalyst name = 'Horn of Desire' image = {HornOfDesire} text = 'Found in 25'/>
                     {/*ROW 12*/}
                     <div className='flex justify-center text-center items-center p-10 bg-black max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'>
                         VIRGO
                     </div>
-                    <Catalyst name = 'Eternal Forest Dust' image = {EternalForestDust}/>
-                    <Catalyst name = 'Flame of Soul' image = {FlameOfSoul}/>
-                    <Catalyst name = 'Demon Blood Gem' image = {DemonBloodGem}/>
+                    <Catalyst name = 'Eternal Forest Dust' image = {EternalForestDust} text = 'Found in 17, 21, 23, 24'/>
+                    <Catalyst name = 'Flame of Soul' image = {FlameOfSoul} text = 'Found in 22, 27, 28, 31, 33'/>
+                    <Catalyst name = 'Demon Blood Gem' image = {DemonBloodGem} text = 'Found in 33'/>
 
                 </motion.div>
             </div>
