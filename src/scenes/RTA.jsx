@@ -1,9 +1,15 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from 'framer-motion';
 import Draft1 from '../assets/rta/draft1.png';
+import Draft2 from '../assets/rta/Draft2.png';
+import Draft3 from '../assets/rta/draft3.png';
 import Cleave1 from '../assets/rta/cleave-draft1.png';
 import Cleave2 from '../assets/rta/cleave-draft2.png';
+import Cleave3 from '../assets/rta/cleave-draft3.png';
 import Standard1 from '../assets/rta/standard-draft1.png';
+import Standard2 from '../assets/rta/standard-draft2.png';
+import Standard3 from '../assets/rta/standard-draft3.png';
+
 
 const container = {
     hidden: {},
@@ -86,11 +92,13 @@ const RTA = () => {
                     />
                     <Draft
                         title = 'Draft 2'
-                        image=''
-                        text='TEST TEXT'
+                        image={Draft2}
+                        text='Keeps the aggression with constant CR push, especially into a tankier composition'
                     />
                     <Draft
                         title = 'Draft 3'
+                        image = {Draft3}
+                        text='Again, keeping the aggression keeping the imperative that we must take turn 1'
                     />
 
                     {/* ROW 2 */}
@@ -109,6 +117,8 @@ const RTA = () => {
                     />
                     <Draft
                         title="Draft 6"
+                        image = {Cleave3}
+                        text = "Speed Imprinting after his fast first pick, into reactively picking into anti-cleave units"
                     />
 
                     {/* ROW 3 */}
@@ -122,9 +132,13 @@ const RTA = () => {
                     />
                     <Draft
                         title="Draft 8"
+                        image = {Standard2}
+                        text = "Standard draft, reactively picking after a first pick ML Landy and picking Lilias for Lua"
                     />
                     <Draft
                         title = "Draft 9"
+                        image = {Standard3}
+                        text = "Another sample standard draft, picking units that are difficult to cleave into such as SCArowell, Briseria and Riolet"
                     />
 
 

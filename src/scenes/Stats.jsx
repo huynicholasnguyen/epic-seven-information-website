@@ -26,7 +26,7 @@ const Stats = () => {
                     </div>
                     <LineGradient width = "w-1/3" />
                     <div className = "mt-10 mb-7 float-left font-playfair text-2xl">
-                        Text about stats will go here.
+                        These are the units that allowed me to finish Top 2500 Champion. A big mix of standard units along with some cleave units. I started out playing cleave until I got gear gapped and then transitioned into a more standard composition at the end of the season.
                     </div>
                     
                 </motion.div>
