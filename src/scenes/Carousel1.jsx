@@ -2,7 +2,7 @@ import React from 'react';
 import Arby from '../assets/arby.png';
 import Choux from '../assets/choux.png';
 import Kawerik from '../assets/kawerik.png';
-import LcBellona from '../assets/lcbellona.png';
+import LcBellona from '../assets/lcbellona-build.png';
 import Straze from '../assets/straze.png';
 import Vildred from '../assets/vildred.png';
 import Zahhak from '../assets/zahhak.png';
